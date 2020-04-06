@@ -5,7 +5,7 @@
 
 ###Usage
 
-cd spider-DDos
+cd spider-DDos-master
 
 python3 spider-ddos.py
 
