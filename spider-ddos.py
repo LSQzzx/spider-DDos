@@ -7,8 +7,11 @@ import random
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
 
-os.system("clear")
-os.system("cls")
+osxt = sys.platform
+if 'win' in osxt:
+    os.system("cls")
+if 'linux' in osxt:
+    os.system("clear")
 
 print('           _     _                ____  ____            ')
 print(' ___ _ __ (_) __| | ___ _ __     |  _ \|  _ \  ___  ___ ')
